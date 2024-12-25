@@ -1,14 +1,14 @@
 import { Container, Stack } from "@mui/material";
 import withLayoutBasic from "./libs/components/layout/LayoutBasic";
 
-const PropertyList = () => {
+const PropertyDetail = () => {
   console.log("PROPERTY LIST COMPONENT - APP ROUTER");
 
   return (
     <>
-      <Container>PROPERTY LIST</Container>
+      <Container>PROPERTY DETAIL</Container>
     </>
   );
 };
 
-export default withLayoutBasic(PropertyList);
+export default withLayoutBasic(PropertyDetail);
