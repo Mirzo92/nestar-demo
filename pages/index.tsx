@@ -4,15 +4,21 @@ import withLayoutMain from "./property/libs/components/layout/LayoutHome";
 
 const Home: NextPage = () => {
   return (
-    <Container>
+    <Stack>
       <Stack flexDirection={"column"}>
-        <Box>Popular Properties</Box>
-        <Box>Top Agents</Box>
-        <Box>Top Properties</Box>
+        <Stack>
+          <Stack className="container">Popular Properties</Stack>
+        </Stack>
+        <Stack>
+          <Stack className="container">Top Agents</Stack>
+        </Stack>
+        <Stack>
+          <Stack className="container">Top Properties</Stack>
+        </Stack>
         <Box>Events</Box>
       </Stack>
-    </Container>
+    </Stack>
   );
-}
+};
 
 export default withLayoutMain(Home);

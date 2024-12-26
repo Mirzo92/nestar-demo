@@ -4,7 +4,6 @@ import { useState } from "react";
 import withLayoutBasic from "../property/libs/components/layout/LayoutBasic";
 
 const Community: NextPage = () => {
-    console.log('community component - pages router')
   const [title, setTitle] = useState<string>("hello");
   return (
     <div>
