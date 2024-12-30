@@ -5,7 +5,7 @@ import withLayoutMain from "./property/libs/components/layout/LayoutHome";
 const Home: NextPage = () => {
   return (
     <Stack>
-      <Stack flexDirection={"column"}>
+      <Stack className={"home-page"}>
         <Stack>
           <Stack className="container">Popular Properties</Stack>
         </Stack>
@@ -15,7 +15,6 @@ const Home: NextPage = () => {
         <Stack>
           <Stack className="container">Top Properties</Stack>
         </Stack>
-        <Box>Events</Box>
       </Stack>
     </Stack>
   );
