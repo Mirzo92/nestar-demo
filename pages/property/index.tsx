@@ -1,13 +1,12 @@
 import { Container, Stack } from "@mui/material";
-import withLayoutBasic from "./libs/components/layout/LayoutBasic";
+import withLayoutBasic from "../libs/components/layout/LayoutBasic";
+import { NextPage } from "next";
 
-const PropertyList = () => {
-  console.log("PROPERTY LIST COMPONENT - APP ROUTER");
-
+const PropertyList: NextPage = () => {
   return (
-    <>
-      <Container>PROPERTY LIST</Container>
-    </>
+    <div style={{ margin: "20px 0"}}>
+      <Stack className="container">PROPERTY LIST</Stack>
+    </div>
   );
 };
 

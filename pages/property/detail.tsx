@@ -1,5 +1,5 @@
 import { Container, Stack } from "@mui/material";
-import withLayoutBasic from "./libs/components/layout/LayoutBasic";
+import withLayoutBasic from "../libs/components/layout/LayoutBasic";
 
 const PropertyDetail = () => {
   console.log("PROPERTY LIST COMPONENT - APP ROUTER");
