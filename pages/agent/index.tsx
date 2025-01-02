@@ -1,7 +1,7 @@
 "use client";
 import { NextPage } from "next";
 import { useState } from "react";
-import withLayoutBasic from "../libs/components/layout/LayoutBasic";
+import withLayoutBasic from "../../libs/components/layout/LayoutBasic";
 import { Stack } from "@mui/material";
 
 const AgentList: NextPage = () => {
